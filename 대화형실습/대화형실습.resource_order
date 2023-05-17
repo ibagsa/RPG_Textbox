@@ -1,0 +1,19 @@
+{
+  "FolderOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"s_face1_1","order":4,"path":"sprites/s_face1_1/s_face1_1.yy",},
+    {"name":"npc_list_create","order":2,"path":"scripts/npc_list_create/npc_list_create.yy",},
+    {"name":"s_face2","order":1,"path":"sprites/s_face2/s_face2.yy",},
+    {"name":"s_grass","order":3,"path":"sprites/s_grass/s_grass.yy",},
+    {"name":"o_sign","order":2,"path":"objects/o_sign/o_sign.yy",},
+    {"name":"npc_text_list","order":3,"path":"scripts/npc_text_list/npc_text_list.yy",},
+    {"name":"show_textbox_info","order":1,"path":"scripts/show_textbox_info/show_textbox_info.yy",},
+    {"name":"o_npc1","order":1,"path":"objects/o_npc1/o_npc1.yy",},
+    {"name":"s_npc2","order":1,"path":"sprites/s_npc2/s_npc2.yy",},
+    {"name":"o_player","order":1,"path":"objects/o_player/o_player.yy",},
+    {"name":"s_sign","order":5,"path":"sprites/s_sign/s_sign.yy",},
+    {"name":"s_player","order":4,"path":"sprites/s_player/s_player.yy",},
+    {"name":"s_face3","order":3,"path":"sprites/s_face3/s_face3.yy",},
+    {"name":"o_npc2","order":2,"path":"objects/o_npc2/o_npc2.yy",},
+  ],
+}
