@@ -1,6 +1,9 @@
 ///@desc npc_list_create()
 ///@arg list
 ///@arg answer
+
+//
+
 function npc_list_create(listMax,answerMax){
 	first_queue = ds_queue_create();
 

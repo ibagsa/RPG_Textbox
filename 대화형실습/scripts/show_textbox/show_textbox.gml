@@ -3,6 +3,8 @@
 ///@arg faceType
 ///@arg msg...
 
+//프로필 사진을 입력받은 후 자료구조 큐를 사용하여 메시지를 입력받습니다.
+
 function show_textbox(profile){
 	var info = o_textBox.TextboxInfo[profile];
 	var textStart = 1;

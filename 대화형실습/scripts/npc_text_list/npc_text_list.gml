@@ -1,4 +1,7 @@
 ///@desc npc_text_list()
+
+
+
 function npc_text_list(idd){
 	var temp_queue = ds_queue_create();
 	var profile = idd.profile;
