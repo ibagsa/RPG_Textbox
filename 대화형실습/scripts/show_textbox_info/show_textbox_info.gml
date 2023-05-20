@@ -1,4 +1,7 @@
 ///@desc show_textbox_info()
+
+//
+
 function show_textbox_info(){
 	function textbox_info(txt) constructor{
 		myname = txt;

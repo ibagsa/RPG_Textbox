@@ -40,6 +40,7 @@
     {"id":{"name":"s_textBox","path":"sprites/s_textBox/s_textBox.yy",},},
     {"id":{"name":"Sound1","path":"sounds/Sound1/Sound1.yy",},},
     {"id":{"name":"s_face1_1","path":"sprites/s_face1_1/s_face1_1.yy",},},
+    {"id":{"name":"s_face4","path":"sprites/s_face4/s_face4.yy",},},
     {"id":{"name":"npc_list_create","path":"scripts/npc_list_create/npc_list_create.yy",},},
     {"id":{"name":"s_face2","path":"sprites/s_face2/s_face2.yy",},},
     {"id":{"name":"s_npc1","path":"sprites/s_npc1/s_npc1.yy",},},

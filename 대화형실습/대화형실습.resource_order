@@ -2,6 +2,7 @@
   "FolderOrderSettings": [],
   "ResourceOrderSettings": [
     {"name":"s_face1_1","order":4,"path":"sprites/s_face1_1/s_face1_1.yy",},
+    {"name":"s_face4","order":5,"path":"sprites/s_face4/s_face4.yy",},
     {"name":"npc_list_create","order":2,"path":"scripts/npc_list_create/npc_list_create.yy",},
     {"name":"s_face2","order":1,"path":"sprites/s_face2/s_face2.yy",},
     {"name":"s_grass","order":3,"path":"sprites/s_grass/s_grass.yy",},
