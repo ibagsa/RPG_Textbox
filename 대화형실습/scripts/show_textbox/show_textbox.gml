@@ -3,10 +3,11 @@
 ///@arg faceType
 ///@arg msg...
 
-//프로필 사진을 입력받은 후 자료구조 큐를 사용하여 메시지를 입력받습니다.
+//Activates a o_textBox based on the data you have received.
+//입력받은 데이터를 기반으로 o_textBox를 활성화합니다.
 
 function show_textbox(profile){
-	var info = o_textBox.TextboxInfo[profile];
+	var info = TEXTBOX.TextboxInfo[profile];
 	var textStart = 1;
 	var faceType = 0;
 	
@@ -16,12 +17,12 @@ function show_textbox(profile){
 	}
 	
 	for(var i=textStart; i<argument_count; i++){
-		ds_queue_enqueue(o_textBox.list_say, argument[i]);
-		ds_queue_enqueue(o_textBox.list_face,info.myface[faceType]);
-		ds_queue_enqueue(o_textBox.list_name,info.myname);
+		ds_queue_enqueue(TEXTBOX.list_say, argument[i]);
+		ds_queue_enqueue(TEXTBOX.list_face,info.myface[faceType]);
+		ds_queue_enqueue(TEXTBOX.list_name,info.myname);
 	}
 	
-	if(o_textBox.mySay == NULL){
+	if(TEXTBOX.mySay == NULL){
 		global.onGamePause = true;
 		with(o_textBox){
 			mySay = ds_queue_dequeue(list_say);
