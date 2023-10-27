@@ -2,7 +2,7 @@
 //ev_other , ev_user0
 //Outputs the answer to the question.
 //o_npc2(노랑)의 질문에 대한 답변을 출력합니다.
-
+with(o_npc2){
 switch(TEXTBOX.choiceThis){
 	case 0:
 	show_textbox(3, "자 여기, 돈!");
@@ -22,4 +22,5 @@ switch(TEXTBOX.choiceThis){
 		
 	default:
 	break;
+}
 }

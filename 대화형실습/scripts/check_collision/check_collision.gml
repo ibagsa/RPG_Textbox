@@ -14,6 +14,6 @@ function check_collision(idd){
 	if(col != noone){
 		return col.object_index;
 	} else{
-		return col;
+		return col; //col == noone
 	}
 }
