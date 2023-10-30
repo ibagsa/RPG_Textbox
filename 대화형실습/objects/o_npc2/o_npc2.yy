@@ -9,7 +9,7 @@
   ],
   "managed": true,
   "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"o_npc_abs","path":"objects/o_npc_abs/o_npc_abs.yy",},"propertyId":{"name":"profile","path":"objects/o_npc_abs/o_npc_abs.yy",},"value":"3",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"o_npc_abs","path":"objects/o_npc_abs/o_npc_abs.yy",},"propertyId":{"name":"profile","path":"objects/o_npc_abs/o_npc_abs.yy",},"value":"2",},
   ],
   "parent": {
     "name": "npc",

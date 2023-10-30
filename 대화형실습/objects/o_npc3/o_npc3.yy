@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "o_npc1",
+  "name": "o_npc3",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":11,"eventType":7,"isDnD":false,},
@@ -9,7 +9,7 @@
   ],
   "managed": true,
   "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"o_npc_abs","path":"objects/o_npc_abs/o_npc_abs.yy",},"propertyId":{"name":"profile","path":"objects/o_npc_abs/o_npc_abs.yy",},"value":"2",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"o_npc_abs","path":"objects/o_npc_abs/o_npc_abs.yy",},"propertyId":{"name":"profile","path":"objects/o_npc_abs/o_npc_abs.yy",},"value":"3",},
   ],
   "parent": {
     "name": "npc",
@@ -35,8 +35,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "s_npc1",
-    "path": "sprites/s_npc1/s_npc1.yy",
+    "name": "s_npc3",
+    "path": "sprites/s_npc3/s_npc3.yy",
   },
   "spriteMaskId": null,
   "visible": true,
