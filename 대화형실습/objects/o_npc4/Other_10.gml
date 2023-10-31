@@ -6,19 +6,31 @@
 with(o_npc4){
 switch(TEXTBOX.choiceThis){
 	case 0:
-	show_textbox(profile, "자 여기, 돈!");
-	show_textbox(profile,2,"혹시나 해서 말하는데, 그냥 남아있던 자투리 돈일 뿐이니까!", "착각하면 가만 안 둬!!!");
-	o_player.money += 50;
+	if(eventCount == 0){
+		show_textbox(profile, "꺄!!!!!","이제부터 우린 짱친이야!!!");
+		eventCount = 1;
+	} else if(eventCount == 2){
+		show_textbox(profile,"앗 정말???","|","그럼 이제부터 나랑 짱친 해주는거야???","그래.","그건 좀...");
+		eventCount = 3;
+	} else if(eventCount == 3){
+		show_textbox(profile, "꺄!!!!!","이제부터 우린 짱친이야!!!");
+		eventCount = 1;
+	}
 	break;
 		
 	case 1:
-	show_textbox(profile,"뭐,뭐야?!?! 나도 너 따위한테 줄 생각 없었거든??");
+	if(eventCount == 0){
+		show_textbox(profile,"앗 조금 당황했구나;;;;;");
+		eventCount = 2;
+	}else if(eventCount == 2){
+		show_textbox(profile,"알았어........... 앞으로 조심할게........");
+	} else if(eventCount == 3){
+		show_textbox(profile,"ㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠ");
+		eventCount = 2;
+	}
 	break;
 		
 	case 2:
-	show_textbox(profile, "...........................뭐...");
-	show_textbox(profile,1, "뭐어ㅓ어어어어어어어어어어ㅓ어어어어어어어어??????");
-	show_textbox(profile,2, "그..그런거...... 나,난 모,몰라.....");
 	break;
 		
 	default:

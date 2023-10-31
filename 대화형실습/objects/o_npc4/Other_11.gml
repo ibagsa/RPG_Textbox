@@ -5,6 +5,11 @@
 
 with(o_npc4){
 	if(eventCount == 0){
-		show_textbox(profile,1,"어라, 넌 처음 보는 얼굴인걸???");
+		show_textbox(profile,1,"어라, 넌 처음 보는 얼굴인걸???","그런데 내게 말을 걸었다는 것은........");
+		show_textbox(profile,"|","그렇구나!!! 너도 나와 친구가 되고 싶은 거지???","응. 맞아.","...갑자기?");
+	} else if(eventCount == 1){
+		show_textbox(profile,"이제 뭐 하고 놀까?!");
+	}else if(eventCount == 2){
+		show_textbox(profile,"|","아깐 당황했지...? 미안해.","괜찮아.","좀 과했어.");
 	}
 }
