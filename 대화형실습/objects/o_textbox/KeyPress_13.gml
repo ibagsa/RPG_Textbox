@@ -2,7 +2,7 @@
 
 if(alarm[0] == -1){//알람이 값을 받지 못하면 -1이 됨.
 	if(inChoice == ON){
-		var col = check_collision(o_player);
+		var col = check_collision(o_player, true);
 		if(col == noone){
 			event_perform_object(o_player, ev_other, ev_user0);
 		} else{

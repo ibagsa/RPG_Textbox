@@ -1,4 +1,5 @@
 /// @desc Initalize
+
 #macro NULL ""
 #macro TEXTBOX o_textBox
 #macro READY -1

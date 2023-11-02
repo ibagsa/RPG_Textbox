@@ -29,14 +29,15 @@ if(!global.onGamePause){
 	
 	//All Communication
 	if(actKey){
-		var idd = check_collision(self);
+		var idd = check_collision(self, false);
 		if(idd != noone){
-			if(idd == o_sign){
+			var obj = idd.object_index;
+			if(obj == o_sign){
 				for(var i=0; i<array_length(idd.myText);i++){
 					show_textbox(0, idd.myText[i]);
 				}
-			} else if(object_get_parent(idd) == o_npc_abs){
-				npc_text_list(idd);
+			} else if(object_get_parent(obj) == o_npc_abs){
+				npc_text_list(obj);
 			}
 		}
 	}

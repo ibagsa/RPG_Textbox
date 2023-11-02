@@ -108,7 +108,7 @@
     "124": {"character":124,"h":23,"offset":4,"shift":11,"w":3,"x":1919,"y":377,},
     "125": {"character":125,"h":23,"offset":2,"shift":11,"w":7,"x":1924,"y":377,},
     "126": {"character":126,"h":23,"offset":0,"shift":11,"w":11,"x":1933,"y":377,},
-    "9647": {"character":9647,"h":23,"offset":4,"shift":13,"w":5,"x":1761,"y":377,},
+    "9647": {"character":9647,"h":23,"offset":3,"shift":13,"w":5,"x":1761,"y":377,},
     "12593": {"character":12593,"h":23,"offset":5,"shift":21,"w":11,"x":1748,"y":377,},
     "12594": {"character":12594,"h":23,"offset":4,"shift":21,"w":14,"x":1732,"y":377,},
     "12595": {"character":12595,"h":23,"offset":3,"shift":21,"w":16,"x":1714,"y":377,},
@@ -2512,7 +2512,7 @@
   "italic": false,
   "kerningPairs": [],
   "last": 0,
-  "lineHeight": 0,
+  "lineHeight": 22,
   "maintainGms1Font": false,
   "parent": {
     "name": "글꼴",
