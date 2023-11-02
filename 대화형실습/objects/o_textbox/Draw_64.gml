@@ -3,7 +3,7 @@
 draw_self();
 draw_set_font(Font1);
 if(myFace == noone){
-	if(myName == noone){
+	if(myName == NULL){
 		draw_text_ext(x+16, y+16, drawSay, 32, 912);
 	} else{
 		draw_text_ext(x+16, y+16, myName, 32, 912);
