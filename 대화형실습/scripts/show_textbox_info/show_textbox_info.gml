@@ -23,7 +23,7 @@ function show_textbox_info(){
 			case 3:
 			TextboxInfo[i] = new textbox_info("노랑",s_face3, s_face3_1, s_face3_2); break;
 			case 4:
-			TextboxInfo[i] = new textbox_info("분홍",s_face4,s_face4_1, s_face4_2,s_face4_3); break;
+			TextboxInfo[i] = new textbox_info("핑크",s_face4,s_face4_1, s_face4_2,s_face4_3); break;
 			case 5:
 			TextboxInfo[i] = new textbox_info("검정",s_face5); break;
 			default: break;
