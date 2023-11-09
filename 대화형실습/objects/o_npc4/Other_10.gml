@@ -32,7 +32,7 @@ switch(TEXTBOX.choiceThis){
 		show_textbox(profile,3,"우린 초면이지?");
 		eventCount = 0;
 	} else if(eventCount == 2){
-		show_textbox(profile,2,"알았어...........ㅠㅠㅠㅠㅠ");
+		show_textbox(profile,2,"조심할게...........ㅠㅠㅠ");
 	} else if(eventCount == 3){
 		show_textbox(profile,2,"ㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠ");
 		eventCount = 2;

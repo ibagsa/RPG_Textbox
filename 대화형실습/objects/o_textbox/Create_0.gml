@@ -9,6 +9,7 @@
 image_xscale = 30;
 image_yscale = 8;
 
+TextboxInfo = 0;
 show_textbox_info();
 
 list_say = ds_queue_create();
