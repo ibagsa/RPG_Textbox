@@ -24,7 +24,7 @@ function show_textbox(profile){
 	
 	if(TEXTBOX.mySay == NULL){
 		global.onGamePause = true;
-		with(o_textBox){
+		with(TEXTBOX){
 			mySay = ds_queue_dequeue(list_say);
 			myFace = ds_queue_dequeue(list_face);
 			myName = ds_queue_dequeue(list_name);
