@@ -1,11 +1,12 @@
 ///@desc show_textbox_info()
 
+//Use the structure to save the character profile
 //구조체를 활용해 텍스트박스에 출력될 캐릭터 정보를 받아옵니다.
 
 function show_textbox_info(){
 	function textbox_info(txt) constructor{
 		myname = txt;
-		myface[0] = noone;
+		myface = noone;
 		for(var i=1; i<(argument_count); i++){
 			myface[i-1] = argument[i];
 		}
