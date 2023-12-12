@@ -30,6 +30,7 @@ choices = array_create(choiceCount,NULL);
 
 //Set temp for NPC text list
 temp_queue = 0;
+temp_face_queue = 0;
 
 chatOn = false;
 visible = false;

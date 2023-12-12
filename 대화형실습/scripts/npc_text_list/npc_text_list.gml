@@ -7,11 +7,17 @@
 function npc_text_list(idd){
 	var profile = idd.profile;
 	TEXTBOX.temp_queue = ds_queue_create();
+	TEXTBOX.temp_face_queue = ds_queue_create();
 	
 	ds_queue_copy(TEXTBOX.temp_queue, idd.first_queue);
+	ds_queue_copy(TEXTBOX.temp_face_queue, idd.face_queue);
 	
 	while(!ds_queue_empty(TEXTBOX.temp_queue)){
-		show_textbox(profile, ds_queue_dequeue(TEXTBOX.temp_queue));
+		if(!ds_queue_empty(TEXTBOX.temp_face_queue)){
+			show_textbox(profile, ds_queue_dequeue(TEXTBOX.temp_face_queue), ds_queue_dequeue(TEXTBOX.temp_queue));
+		} else{
+			show_textbox(profile, ds_queue_dequeue(TEXTBOX.temp_queue));
+		}
 	}
 	
 	event_perform_object(idd, ev_other, ev_user1);
