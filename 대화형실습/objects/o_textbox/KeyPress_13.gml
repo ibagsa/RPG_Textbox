@@ -37,6 +37,7 @@ if(alarm[0] == -1){//알람이 값을 받지 못하면 -1이 됨.
 			myName = NULL;
 			myFace = noone;
 			temp_queue = 0;
+			temp_face_queue = 0;
 			visible = false;
 			global.onGamePause = false;
 			chatOn = false;
